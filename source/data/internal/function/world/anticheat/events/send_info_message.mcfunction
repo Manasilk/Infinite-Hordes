@@ -7,3 +7,4 @@ tag @s[tag=ANTICHEAT_FLAG_PLAYER_TELEPORT] remove ANTICHEAT_FLAG_PLAYER_TELEPORT
 tag @s[tag=ANTICHEAT_FLAG_PLAYER_FLYING] remove ANTICHEAT_FLAG_PLAYER_FLYING
 
 tag @s remove anticheat.broadcast_info
+scoreboard players set #anticheat _ac.brdcst_tick 0

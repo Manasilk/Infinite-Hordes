@@ -5,3 +5,5 @@ scoreboard players set @e[scores={vmap_upd_t=1..}] vmap_upd_t 0
 
 scoreboard players set #world world_tick 0
 scoreboard players set #garbage garbage_tick 0
+scoreboard players set #anticheat anticheat_tick 0
+scoreboard players set #anticheat _ac.brdcst_tick 0
