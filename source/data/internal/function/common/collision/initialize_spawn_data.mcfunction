@@ -1,3 +1,5 @@
+say common/collision/initialize_spawn_data
+
 #Upon summoning the virtual ray, we assign the invoker's rotation as the rotation the ray is facing
 scoreboard players operation @s entity_hostility = #temp entity_hostility
 tag @s[scores={entity_hostility=1}] add ENTITY_ACTION_FRIENDLY
@@ -10,3 +12,7 @@ function internal:common/collision/flush_temp_data
 
 scoreboard players set @s has_collided 0
 tag @s add area_trigger.initialized_spawn_data
+
+scoreboard players set #log __event_idef 10000
+scoreboard players set #log __event_type 0
+function internal:common/logging/world_builder/register_event

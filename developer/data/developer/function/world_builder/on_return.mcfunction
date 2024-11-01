@@ -1,4 +1,4 @@
-execute at @s[tag=account.builder,scores={chat.return=1..}] run kill @e[type=minecraft:item,nbt={Item:{tag:{world_builder_tool:1b}}},sort=nearest,limit=1,distance=0..1.999]
+execute at @s[tag=account.builder,scores={chat.return=1..}] run kill @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{world_builder_tool:1b}}}},sort=nearest,limit=1,distance=0..1.999]
 item replace entity @s[tag=account.builder,scores={chat.return=1..}] hotbar.0 with minecraft:carrot_on_a_stick[minecraft:custom_data={world_builder_tool:1b},minecraft:custom_model_data=1,minecraft:custom_name='{"translate":"item.assist_tool","italic":false}']
 
 scoreboard players set @s[scores={wb.class_id=1..2,wb.type_id=0}] wb.class_id 0

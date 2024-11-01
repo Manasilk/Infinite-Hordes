@@ -28,3 +28,7 @@ function internal:common/collision/flush_temp_data
 
 scoreboard players set @s has_collided 0
 tag @s add area_trigger.initialized_spawn_data
+
+scoreboard players set #log __event_idef 10000
+scoreboard players set #log __event_type 0
+function internal:common/logging/world_builder/register_event

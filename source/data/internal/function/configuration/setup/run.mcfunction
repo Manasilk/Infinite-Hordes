@@ -24,7 +24,7 @@ function internal:configuration/setup/scoreboards/entity
 function internal:configuration/setup/dimensions
 function internal:configuration/setup/miscellaneous/world_storage
 #Schedule 
-schedule function internal:common/logging/clear_entries 7d
+schedule function internal:common/logging/clear_entries 30d
 
 
 #Update world configuration

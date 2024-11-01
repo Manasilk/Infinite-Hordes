@@ -1,3 +1,4 @@
+scoreboard players set @s success 0
 execute if score @s wb.npc_id matches 11 run function developer:world_builder/actions/spawn_entity/friendly/entity_villager
 execute if score @s wb.npc_id matches 12 run function developer:world_builder/actions/spawn_entity/hostile/entity_drowned
 execute if score @s wb.npc_id matches 13 run function developer:world_builder/actions/spawn_entity/hostile/entity_evoker
@@ -65,6 +66,11 @@ execute if score @s wb.npc_id matches 74 run function developer:world_builder/ac
 #force initialization
 execute as @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] at @s run function internal:world/entity/creature/initialize_spawn_data
 execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run tellraw @a[tag=account.builder] {"translate":"event_type.summoned_mob","with":[{"selector":"@e[type=#internal:creature,sort=nearest,limit=1]","color":"white"},{"score":{"name":"#entity","objective":"entity_guid"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_x"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_y"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_z"},"color":"white"}],"color":"yellow"}
+
+scoreboard players set #log __event_idef 10001
+execute if entity @s[scores={success=1}] run scoreboard players set #log __event_type 0
+execute unless entity @s[scores={success=1}] run scoreboard players set #log __event_type 3
+function internal:common/logging/world_builder/register_event
 
 #Event identifier
 scoreboard players set #log __event_idef 1002

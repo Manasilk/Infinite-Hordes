@@ -13,3 +13,6 @@ execute if entity @s[type=minecraft:spider,team=Neutral,tag=!ENTITY_FLAG_IN_COMB
 execute if entity @s[type=minecraft:spider,team=Hostile,tag=!ENTITY_FLAG_IN_COMBAT] if score #world world_daytime matches 0..12999 run function internal:world/entity/creature/set_action_neutral
 
 execute if entity @s[tag=ENTITY_FLAG_GOSSIP] if entity @a[scores={chat.triggered=1..},distance=0..5.299] run function internal:world/entity/conversation/send_menu
+
+#WORLD_BUILDER
+function developer:world_builder/triggers/creature

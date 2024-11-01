@@ -1,4 +1,4 @@
-tellraw @s [{"text":"\n\n\n\n\n\n\n\n"},{"translate":"builder_menu.entity.summon_option","color":"yellow"}]
+tellraw @s [{"text":"\n\n\n\n\n\n\n\n"},{"translate":"builder_menu.npc_summon_option","color":"yellow"}]
 tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.slime","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 67"},"color":"white"},{"text":"]","color":"gold"}]
 tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.stray","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 20"},"color":"white"},{"text":"]","color":"gold"}]
 tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.vex","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 21"},"color":"white"},{"text":"]","color":"gold"}]

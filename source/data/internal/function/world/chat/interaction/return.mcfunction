@@ -2,6 +2,7 @@ scoreboard players set @s[scores={chat.sub_menu=0,chat.main_menu=1..}] chat.main
 scoreboard players set @s[scores={chat.sub_menu=1..,chat.opts_menu=0}] chat.sub_menu 0
 scoreboard players remove @s[scores={chat.sub_menu=1..,chat.opts_menu=1..}] chat.opts_menu 1
 scoreboard players reset @s chat.page_scrl
+scoreboard players reset @s chat.page_crnt
 
 #world_builder specific
 execute if entity @s[tag=account.builder] run function developer:world_builder/on_return

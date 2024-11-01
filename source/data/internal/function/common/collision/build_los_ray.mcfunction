@@ -8,4 +8,8 @@ execute if entity @s[type=minecraft:player,scores={wb_option_id=12}] run functio
 execute as @e[type=#internal:area_trigger,tag=ENTITY_FLAG_COLLISION_TRIGGER,tag=SUMMONER_CREATURE,tag=!area_trigger.initialized_spawn_data,distance=0..1.001,sort=nearest,limit=1] run function internal:common/collision/initialize_spawn_data
 execute as @e[type=#internal:area_trigger,tag=ENTITY_FLAG_COLLISION_TRIGGER,tag=SUMMONER_PLAYER,tag=!area_trigger.initialized_spawn_data,distance=0..1.001,sort=nearest,limit=1] run function developer:world_builder/actions/load_info/initialize_spawn_data
 
+execute unless entity @e[type=#internal:area_trigger,tag=ENTITY_FLAG_COLLISION_TRIGGER,tag=area_trigger.initialized_spawn_data,sort=nearest,distance=0..1.001,limit=1] run scoreboard players set #log __event_type 3
+execute unless entity @e[type=#internal:area_trigger,tag=ENTITY_FLAG_COLLISION_TRIGGER,tag=area_trigger.initialized_spawn_data,sort=nearest,distance=0..1.001,limit=1] run scoreboard players set #log __event_idef 10000
+execute unless entity @e[type=#internal:area_trigger,tag=ENTITY_FLAG_COLLISION_TRIGGER,tag=area_trigger.initialized_spawn_data,sort=nearest,distance=0..1.001,limit=1] run function internal:common/logging/world_builder/register_event
+
 tag @s remove collision.attempt_line_of_sight_collision

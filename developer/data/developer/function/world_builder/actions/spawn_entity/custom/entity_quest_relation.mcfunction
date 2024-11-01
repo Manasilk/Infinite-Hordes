@@ -2,3 +2,5 @@ summon minecraft:villager ~ ~ ~ {CustomName:'{"translate":"quest_related"}',Cust
 tag @e[type=minecraft:villager,distance=0..0.001,sort=nearest,limit=1] add creature.set_flag_gossip
 tag @e[type=minecraft:villager,distance=0..0.001,sort=nearest,limit=1] add creature.set_flag_quest_relation
 scoreboard players add #entity entity_id 1
+
+scoreboard players set @s success 1

@@ -1,8 +1,14 @@
 {
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
-	"predicate": 
-	{
-		"nbt": "{SelectedItem:{tag:{world_builder_tool:1b}}}"
+	"predicate": {
+	  "equipment": {
+		"mainhand": {
+		  "components": {
+			"minecraft:custom_data": "{world_builder_tool:1b}"
+		  }
+		}
+	  }
 	}
-}
+  }
+  

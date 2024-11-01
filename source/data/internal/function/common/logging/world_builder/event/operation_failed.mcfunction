@@ -1,0 +1,4 @@
+execute as @a[tag=collision.attempt_line_of_sight_collision] store result storage log:world_builder event[-1].data[].guid int 1 run scoreboard players get @s player_id
+execute as @e[type=#internal:creature,tag=collision.attempt_line_of_sight_collision] store result storage log:world_builder event[-1].data[].guid int 1 run scoreboard players get @s entity_guid
+execute if entity @s[type=#internal:creature] run data modify storage log:world_builder event[-1].data[].summoner set value 1
+execute if entity @s[type=minecraft:player] run data modify storage log:world_builder event[-1].data[].summoner set value 2
