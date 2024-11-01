@@ -3,7 +3,7 @@
 
 	"server_broadcast": "[СЕРВЕР]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
-	"server.login_msg": "Добро пожаловать в \"Кампания\", Обновление %d: %s",
+	"server.login_msg": "Добро пожаловать в \"Бесконечные Орды\", Обновление %d: %s",
 	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s\nВведите \"/trigger help\" в чате для помощи.",
 	"server.install_pkg_msg": "Установлен пакет обновления: %s",
 	"server.build_info": "Ревизия сборки: %d (%d), Версия игры: %d",
