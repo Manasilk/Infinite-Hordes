@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "KILLED_PLAYER": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:_T"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "KILLED_PLAYER"
+    ]
+  ],
+  "rewards": {
+    "function": "internal:world/combat/combat_log/log_events/killed_by/_T"
+  }
+}

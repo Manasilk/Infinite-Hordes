@@ -1,1 +1,1 @@
-give @s minecraft:carrot_on_a_stick{world_builder_tool:1b,CustomModelData:1,display:{Name:'{"italic":false,"translate":"item.assist_tool"}'}} 1
+give @s minecraft:carrot_on_a_stick[minecraft:custom_data={world_builder_tool:1b},minecraft:custom_model_data=1,minecraft:custom_name='{"translate":"item.assist_tool","italic":false}']

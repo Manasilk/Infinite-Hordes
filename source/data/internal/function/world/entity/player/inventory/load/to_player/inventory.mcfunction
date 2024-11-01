@@ -1,1 +1,1 @@
-loot replace entity @s inventory.0 27 mine 0 0 0 minecraft:air{drop_contents:1b}
+loot replace entity @s inventory.0 27 mine 0 0 0 minecraft:air[custom_data={drop_contents:1b}]

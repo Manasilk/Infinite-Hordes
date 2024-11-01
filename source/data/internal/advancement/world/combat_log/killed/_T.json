@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "KILLED_ENTITY": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:_T"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "KILLED_ENTITY"
+    ]
+  ],
+  "rewards": {
+    "function": "internal:world/combat/combat_log/log_events/killed/_T"
+  }
+}

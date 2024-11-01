@@ -1,53 +1,25 @@
 {
-    "display":
-	{
-        "title":
-		{
-            "text": "DAMAGED_ENTITY"
-        },
-        "description":
-		{
-            "text": "SQUID"
-        },
-        "icon":
-		{
-            "item": "minecraft:skeleton_skull"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "minecraft:textures/block/black_concrete.png"
-    },
-    "criteria":
-	{
-		"DAMAGED_SQUID":
-		{
-            "trigger": "minecraft:player_hurt_entity",
-			"conditions":
-			{
-				"damage":
-				{
-					"dealt":
-					{
-						"min": 0.0
+	"criteria": {
+		"HURT_ENTITY": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 0
 					}
 				},
-				"entity":
-				{
+				"entity": {
 					"type": "minecraft:squid"
 				}
 			}
-        }
-    },
-	"requirements":
-	[
+		}
+	},
+	"requirements": [
 		[
-			"DAMAGED_SQUID"
+			"HURT_ENTITY"
 		]
 	],
-    "rewards":
-	{
-        "function": "internal:world/combat/combat_log/log_events/damaged/squid"
-    }
+	"rewards": {
+		"function": "internal:world/combat/combat_log/log_events/damaged/squid"
+	}
 }

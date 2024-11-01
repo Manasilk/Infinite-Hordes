@@ -14,9 +14,9 @@
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
-	"parent": "internal:world/account/character/root",
+	"parent": "internal:world/account/character/join_the_forces",
     "criteria":
 	{
 		"COMPLETE_QUEST_COUNT25":

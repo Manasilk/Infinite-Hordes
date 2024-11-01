@@ -1,5 +1,5 @@
 #Apply attribute changes and effects in-case not spawned with them
-attribute @s minecraft:generic.knockback_resistance base set 10
+attribute @s minecraft:knockback_resistance base set 10
 effect give @s minecraft:resistance 1000000 10 true
 
 function internal:world/entity/object/get_object_position

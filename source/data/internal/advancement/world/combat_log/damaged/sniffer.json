@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"HURT_ENTITY": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 0
+					}
+				},
+				"entity": {
+					"type": "minecraft:sniffer"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"HURT_ENTITY"
+		]
+	],
+	"rewards": {
+		"function": "internal:world/combat/combat_log/log_events/damaged/sniffer"
+	}
+}

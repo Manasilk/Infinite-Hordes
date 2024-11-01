@@ -1,0 +1,72 @@
+{
+    "criteria": {
+      "REQ_NPC_OR_GO_0": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"REQ_NPC_OR_GO_0\",\"QUEST__T\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "REQ_NPC_OR_GO_1": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"REQ_NPC_OR_GO_1\",\"QUEST__T\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "REQ_NPC_OR_GO_2": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"REQ_NPC_OR_GO_2\",\"QUEST__T\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "REQ_NPC_OR_GO_3": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"REQ_NPC_OR_GO_3\",\"QUEST__T\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "REQ_NPC_OR_GO_0",
+        "REQ_NPC_OR_GO_1",
+        "REQ_NPC_OR_GO_2",
+        "REQ_NPC_OR_GO_3"
+      ]
+    ],
+    "rewards": {
+      "function": "internal:world/quests/quest_tracker/quest_kills/quest__T"
+    }
+  }
+  

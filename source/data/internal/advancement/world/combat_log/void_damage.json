@@ -1,18 +1,6 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:skeleton_skull"
-		},
-		"title": "DAMAGED_ENTITY",
-		"description": "VOID",
-		"background": "minecraft:textures/block/black_concrete.png",
-		"frame": "task",
-		"show_toast": false,
-		"announce_to_chat": false,
-		"hidden": true
-	},
 	"criteria": {
-		"DAMAGED_ENTITY": {
+		"HURT_ENTITY": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
 				"damage": {
@@ -30,7 +18,7 @@
 	},
 	"requirements": [
 		[
-			"DAMAGED_ENTITY"
+			"HURT_ENTITY"
 		]
 	],
 	"rewards": {

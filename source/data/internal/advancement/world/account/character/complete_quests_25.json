@@ -35,8 +35,7 @@
 						{
 							"stat_quests_cmpl":
 							{
-								"min": 25,
-								"max": 500
+								"min": 25
 							}
 						}
 					}

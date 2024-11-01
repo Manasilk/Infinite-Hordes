@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"HURT_PLAYER": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 0
+					},
+					"source_entity": {
+						"type": "minecraft:goat"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"HURT_PLAYER"
+		]
+	],
+	"rewards": {
+		"function": "internal:world/combat/combat_log/log_events/damaged_by/entity/goat"
+	}
+}

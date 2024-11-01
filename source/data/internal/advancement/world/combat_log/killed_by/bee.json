@@ -1,16 +1,4 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:skeleton_skull"
-    },
-    "title": "KILLED_PLAYER",
-    "description": "BEE",
-    "background": "minecraft:textures/block/black_concrete.png",
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": true
-  },
   "criteria": {
     "KILLED_PLAYER": {
       "trigger": "minecraft:entity_killed_player",
