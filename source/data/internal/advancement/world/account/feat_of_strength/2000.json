@@ -1,0 +1,56 @@
+{
+	"display":
+	{
+        "title":
+		{
+            "translate": "advancement.title.achievement_points_2000"
+        },
+        "description":
+		{
+            "translate": "advancement.description.achievement_points_2000"
+        },
+        "icon":
+		{
+            "id": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+	"parent": "internal:world/account/feat_of_strength/1000",
+    "criteria":
+	{
+		"ACHIEVEMENT_POINTS_2000":
+		{
+			"trigger": "minecraft:tick",
+			"conditions":
+			{
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores":
+						{
+							"stat_adv_pts":
+							{
+								"min": 2000
+							}
+						}
+					}
+				]
+			}
+		}
+    },
+	"rewards":
+	{
+		"function": "internal:world/accounts/advancements/add_points_100"
+	},
+	"requirements":
+	[
+		[
+			"ACHIEVEMENT_POINTS_2000"
+		]
+	]
+}

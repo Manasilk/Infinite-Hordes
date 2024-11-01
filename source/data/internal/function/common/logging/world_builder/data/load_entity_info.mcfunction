@@ -1,0 +1,6 @@
+execute store result storage log:world_builder event[-1].data[].guid int 1 run scoreboard players get @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_guid
+execute store result storage log:world_builder event[-1].data[].level int 1 run scoreboard players get @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_level
+execute store result storage log:world_builder event[-1].data[].health int 1 run scoreboard players get @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_curhp
+execute store result storage log:world_builder event[-1].data[].position.x int 1 run data get entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] Pos[0]
+execute store result storage log:world_builder event[-1].data[].position.y int 1 run data get entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] Pos[1]
+execute store result storage log:world_builder event[-1].data[].position.z int 1 run data get entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] Pos[2]

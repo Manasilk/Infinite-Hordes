@@ -1,0 +1,41 @@
+{
+	"display": {
+		"title": {
+			"translate": "advancement.title.level_30"
+		},
+		"description": {
+			"translate": "advancement.description.level_30"
+		},
+		"icon": {
+			"id": "minecraft:experience_bottle"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"parent": "internal:world/account/character/level_20",
+	"criteria": {
+		"LEVEL_30": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"entity_level": {
+								"min": 30
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"LEVEL_30"
+		]
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"_comment": "Undead Creatures",
+	"values":
+	[
+		"minecraft:skeleton",
+		"minecraft:wither_skeleton",
+		"minecraft:skeleton_horse",
+		"minecraft:stray",
+		"minecraft:zombie",
+		"minecraft:zombified_piglin",
+		"minecraft:zombie_villager",
+		"minecraft:zombie_horse",
+		"minecraft:drowned",
+		"minecraft:husk",
+		"minecraft:phantom",
+		"minecraft:wither",
+		"minecraft:bogged"
+	]
+}

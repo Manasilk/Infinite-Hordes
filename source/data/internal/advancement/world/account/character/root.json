@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:writable_book"
+		},
+		"title": {
+			"translate": "advancement.title.personal"
+		},
+		"description": {
+			"translate": "advancement.description.personal"
+		},
+		"background": "minecraft:textures/block/dark_oak_log.png",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"START_THE_CAMPAIGN": {
+			"trigger": "minecraft:impossible"
+		},
+		"LEVEL_40": {
+			"trigger": "minecraft:impossible"
+		},
+		"COMPLETE_QUEST_COUNT25": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"START_THE_CAMPAIGN"
+		],
+		[
+			"LEVEL_40"
+		],
+		[
+			"COMPLETE_QUEST_COUNT25"
+		]
+	],
+	"rewards": {
+		"function": "internal:world/accounts/advancements/add_points_50"
+	}
+}

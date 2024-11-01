@@ -1,0 +1,34 @@
+{
+	"condition": "minecraft:alternative",
+	"terms":
+	[
+		{
+			"condition": "minecraft:location_check",
+			"predicate":
+			{
+				"biome": "minecraft:forest"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate":
+			{
+				"biome": "minecraft:roofed_forest"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate":
+			{
+				"biome": "minecraft:birch_forest"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate":
+			{
+				"biome": "minecraft:flower_forest"
+			}
+		}
+	]
+}

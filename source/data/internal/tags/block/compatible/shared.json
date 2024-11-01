@@ -1,0 +1,9 @@
+{
+	"_comment": "",
+	"replace": false,
+	"values":
+	[
+		"#internal:compatible/sugar_cane",
+		"#internal:compatible/dead_bush"
+	]
+}

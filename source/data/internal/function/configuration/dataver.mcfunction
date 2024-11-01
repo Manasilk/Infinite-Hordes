@@ -1,0 +1,1 @@
+data modify storage internal:world game.rv set from entity @s DataVersion

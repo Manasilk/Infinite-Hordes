@@ -1,0 +1,1 @@
+execute as @a run function internal:world/accounts/advancements_manager

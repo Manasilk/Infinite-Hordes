@@ -1,0 +1,54 @@
+{
+	"display":
+	{
+		"title": {
+			"translate": "advancement.title.complete_objectives_50"
+		},
+		"description": {
+			"translate": "advancement.description.complete_objectives_50"
+		},
+        "icon":
+		{
+            "id": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+	"parent": "internal:world/account/character/complete_objectives_25",
+    "criteria":
+	{
+		"COMPLETE_QUEST_COUNT50":
+		{
+			"trigger": "minecraft:tick",
+			"conditions":
+			{
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores":
+						{
+							"stat_quests_cmpl":
+							{
+								"min": 50
+							}
+						}
+					}
+				]
+			}
+		}
+    },
+	"rewards":
+	{
+		"function": "internal:world/accounts/advancements/add_points_10"
+	},
+	"requirements":
+	[
+		[
+			"COMPLETE_QUEST_COUNT50"
+		]
+	]
+}

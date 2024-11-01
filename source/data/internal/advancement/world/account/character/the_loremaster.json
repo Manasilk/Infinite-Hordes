@@ -1,0 +1,51 @@
+{
+	"display":
+	{
+        "title":
+		{
+            "translate": "The Loremaster"
+        },
+        "description":
+		{
+            "translate": "advancement.description.loremaster"
+        },
+        "icon":
+		{
+            "id": "minecraft:writable_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dark_oak_log.png"
+    },
+	"parent": "internal:world/account/character/join_the_forces",
+	"criteria": {
+		"Achievement_Loremaster.InfernalCitadel": {
+			"trigger": "minecraft:impossible"
+		},
+		"Achievement_Loremaster.Undercity": {
+			"trigger": "minecraft:impossible"
+		},
+		"Achievement_Loremaster.BloomingFields": {
+			"trigger": "minecraft:impossible"
+		},
+		"Achievement_Loremaster.PH": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"Achievement_Loremaster.InfernalCitadel"
+		],
+		[
+			"Achievement_Loremaster.Undercity"
+		],
+		[
+			"Achievement_Loremaster.BloomingFields"
+		],
+		[
+			"Achievement_Loremaster.PH"
+		]
+	]
+}

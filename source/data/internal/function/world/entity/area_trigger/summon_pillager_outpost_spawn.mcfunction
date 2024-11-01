@@ -1,0 +1,8 @@
+summon minecraft:pillager ~ ~ ~ {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ArmorItems:[{},{},{},{}],ArmorDropChance:[0.0f,0.0f,0.0f,2.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager","ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_PILLAGER_CAPTAIN","check.spreadplayers"]}
+summon minecraft:pillager ~ ~ ~ {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager","ENTITY_FLAG_SERVER_CONTROLLED","check.spreadplayers"]}
+summon minecraft:pillager ~ ~ ~ {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager","ENTITY_FLAG_SERVER_CONTROLLED","check.spreadplayers"]}
+summon minecraft:pillager ~ ~ ~ {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager","ENTITY_FLAG_SERVER_CONTROLLED","check.spreadplayers"]}
+summon minecraft:pillager ~ ~ ~ {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager","ENTITY_FLAG_SERVER_CONTROLLED","check.spreadplayers"]}
+
+function internal:world/entity/area_trigger/spread_spawn_medium
+function internal:world/entity/area_trigger/get_entity_count

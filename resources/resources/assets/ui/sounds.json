@@ -1,0 +1,31 @@
+{
+	"mainhand.sheathe":
+	{
+		"sounds": ["ui:player/mh_sheathe"]
+	},
+	"mainhand.unsheathe":
+	{
+		"sounds": ["ui:player/mh_unsheathe"]
+	},
+	"player.levelup": 
+	{
+		"sounds": ["ui:player/levelup"]
+	},
+
+	"quest.accept":
+	{
+		"sounds": ["ui:quest_accept"]
+	},
+	"quest.objectives":
+	{
+		"sounds": ["ui:quest_objectives"]
+	},
+	"quest.complete":
+	{
+		"sounds": ["ui:quest_complete"]
+	},
+	"quest.failed":
+	{
+		"sounds": ["ui:quest_failed"]
+	}
+}
