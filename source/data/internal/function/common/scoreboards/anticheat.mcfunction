@@ -8,6 +8,8 @@ scoreboard objectives add _ac.pos_y1 dummy {"translate":"dbc.fairbox.pos_y_new"}
 scoreboard objectives add _ac.pos_z1 dummy {"translate":"dbc.fairbox.pos_z_new"}
 scoreboard objectives add _ac.dist_lim dummy {"translate":"dbc.fairbox.distance_limit"}
 scoreboard objectives add _ac.fall_spd dummy {"translate":"dbc.fairbox.freefall"}
+scoreboard objectives add _ac.brdcst_del dummy {"translate":"dbc.faribox.broadcast_delay"}
+scoreboard objectives add _ac.brdcst_tick dummy {"translate":"dbc.faribox.update_timer"}
 
 scoreboard objectives add _ac.gamemode dummy {"translate":"dbc.fairbox.gamemode"}
 #SURVIVAL                    = 1,
@@ -21,3 +23,4 @@ scoreboard objectives add _ac.flags dummy {"translate":"dbc.fairbox.flags"}
 #WARDEN_FLAG_PLAYER_TELEPORT = 4
 scoreboard objectives add _ac.remflag_tick dummy {"translate":"dbc.fairbox.purge_flag_timer"}
 scoreboard objectives add anticheat_tick dummy {"translate":"dbc.fairbox.update_timer"}
+scoreboard objectives add broadcast_tick dummy {"translate":"dbc.fairbox.update_timer"}

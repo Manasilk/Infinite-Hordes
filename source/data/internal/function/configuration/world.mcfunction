@@ -73,9 +73,12 @@ function internal:world/general/miscellaneous/shared_def
 #CREATIVE                         = 1,
 #ADVENTURE                        = 2,
 #SPECTATOR                        = 3
-scoreboard players set #anticheat _ac.gamemode 1
+scoreboard players set #anticheat _ac.gamemode 2
 
 #controls if anticheat should take any actions
 #0 = disabled,
 #1 = enabled
 scoreboard players set #anticheat _ac.actions 0
+
+#Control broadcasting timer in seconds
+scoreboard players set #anticheat _ac.brdcst_del 10

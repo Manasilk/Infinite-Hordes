@@ -244,6 +244,9 @@ scoreboard objectives remove _ac.gamemode
 scoreboard objectives remove _ac.actions
 scoreboard objectives remove _ac.flags
 scoreboard objectives remove _ac.remflag_tick
+scoreboard objectives remove _ac.brdcst_del
+scoreboard objectives remove _ac.brdcst_tick
+scoreboard objectives remove broadcast_tick
 scoreboard objectives remove anticheat_tick
 #DEBUG
 scoreboard objectives remove cmd_executed
