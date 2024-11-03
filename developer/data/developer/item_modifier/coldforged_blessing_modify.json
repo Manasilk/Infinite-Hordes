@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Coldforged Blessing Set (",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "setpieces"
+          },
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "/4)",
+          "color": "gold",
+          "italic": false
+        }
+      ]
+    ],
+    "mode": "replace_section",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "components": {
+                "minecraft:custom_data": "{itemset:1b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

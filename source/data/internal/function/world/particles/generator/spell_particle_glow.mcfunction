@@ -1,0 +1,1 @@
+particle minecraft:glow ~ ~ ~ 0.2 0.2 0.2 0 1 normal

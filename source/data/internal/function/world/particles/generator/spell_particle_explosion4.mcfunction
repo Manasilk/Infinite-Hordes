@@ -1,0 +1,1 @@
+particle crimson_spore ~ ~ ~ 0.2 0.2 0.2 0 1000 normal

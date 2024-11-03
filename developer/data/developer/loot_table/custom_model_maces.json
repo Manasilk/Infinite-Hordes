@@ -1,0 +1,252 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 4,
+        "bonus_rolls": 0,
+        "entries": [
+          
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "1",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "2",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": {
+                  "text": "Tu'viri Basher",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "text": "Damage 10        Speed 0.6",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(6 Damage Per Second)",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": " ",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "On hit: Your melee strikes and abilities",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "have a chance to summon Fangs",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ]
+                  
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "1",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "2",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "1",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "2",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "1",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "2",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "1",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "2",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "1",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "2",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

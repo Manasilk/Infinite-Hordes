@@ -1,0 +1,1 @@
+particle lava ~ ~1 ~ 0 0 0 0 10 normal

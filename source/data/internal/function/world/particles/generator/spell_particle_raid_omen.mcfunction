@@ -1,0 +1,1 @@
+particle raid_omen ~ ~2.25 ~ 0 0 0 0 2 normal

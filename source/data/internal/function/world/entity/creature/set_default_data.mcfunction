@@ -87,3 +87,4 @@ scoreboard players set @s[type=minecraft:bee] entity_id 89
 scoreboard players set @s[type=minecraft:goat] entity_id 90
 
 scoreboard players set @s entity_hpprc 100
+scoreboard players operation @s cfg.difficulty = #world cfg.difficulty

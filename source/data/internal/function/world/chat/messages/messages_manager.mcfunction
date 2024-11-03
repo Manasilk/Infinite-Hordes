@@ -17,6 +17,7 @@ execute if entity @s[tag=messages.error.cannot_accept_more_quests] run function 
 #World Events
 execute if entity @s[tag=messages.info.bonus_loot_event] run function internal:world/chat/messages/info/bonus_loot
 execute if entity @s[tag=messages.info.bonus_reward_event] run function internal:world/chat/messages/info/bonus_reward
+execute if entity @s[tag=messages.info.difficulty_changed] run function internal:world/chat/messages/info/difficulty_changed
 
 #World Builder
 execute if entity @s[tag=messages.error.invalid_level] run function internal:world/chat/messages/error/level_invalid

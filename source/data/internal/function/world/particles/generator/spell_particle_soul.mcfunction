@@ -1,0 +1,1 @@
+particle minecraft:soul ^ ^1.25 ^1 0 0 0 0 2 normal

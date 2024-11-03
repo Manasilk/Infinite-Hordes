@@ -1,0 +1,114 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 4,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 2
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 4
+              }
+            ]
+          },
+
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

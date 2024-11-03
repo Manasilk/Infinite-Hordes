@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "INVENTORY_UPDATE": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "requirements": [
+      [
+        "INVENTORY_UPDATE"
+      ]
+    ],
+    "rewards": {
+      "function": "developer:workbench/items/update_set"
+    }
+  }
+  

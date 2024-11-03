@@ -1,0 +1,1 @@
+particle item_slime ~ ~0.5 ~ 0.2 0.2 0.2 0 10 normal

@@ -41,3 +41,5 @@ scoreboard objectives add cfg.prjctl_age dummy {"translate":"dbc.server.projecti
 scoreboard objectives add cfg.item_age dummy {"translate":"dbc.server.item_t"}
 scoreboard objectives add cfg.cls_log_t dummy {"translate":"config.cls_log_t"}
 scoreboard objectives add cfg.cmd_ln dummy
+#> RESERVED
+scoreboard objectives add cfg.difficulty dummy {"translate":"config.game_difficulty"}

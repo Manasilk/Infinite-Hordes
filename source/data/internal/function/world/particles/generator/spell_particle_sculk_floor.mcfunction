@@ -1,0 +1,1 @@
+particle sculk_charge{roll:0} ~ ~ ~ 0.5 0.5 0.5 0 20 normal

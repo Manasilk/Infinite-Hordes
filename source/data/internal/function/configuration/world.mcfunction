@@ -35,8 +35,8 @@ gamerule doTileDrops false
 #
 # @ENVIRONMENT
 gamerule disableRaids true
-gamerule doDaylightCycle true
-gamerule doWeatherCycle true
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
 gamerule doFireTick true
 gamerule mobGriefing false
 gamerule maxEntityCramming 0
@@ -65,6 +65,12 @@ execute store result score #world cfg.cmd_ln run gamerule maxCommandChainLength
 gamerule spectatorsGenerateChunks true
 gamerule disableElytraMovementCheck true
 function internal:world/general/miscellaneous/shared_def
+#defines game difficulty
+#PEACEFUl                         = 0
+#EASY                             = 1,
+#NORMAL                           = 2,
+#HARd                             = 3
+execute store result score #world cfg.difficulty run difficulty
 ### ANTICHEAT CONFIG ###
 #
 # @ANTICHEAT

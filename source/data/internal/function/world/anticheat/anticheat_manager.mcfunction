@@ -1,6 +1,6 @@
 execute unless entity @s[tag=account.commands] run function internal:world/anticheat/check_gamemode
-function internal:world/anticheat/check_activity
-function internal:world/anticheat/check_position
+execute unless entity @s[tag=ANTICHEAT_FLAG_PLAYER_IGNORE] run function internal:world/anticheat/check_activity
+execute unless entity @s[tag=ANTICHEAT_FLAG_PLAYER_IGNORE] run function internal:world/anticheat/check_position
 
 #The function below determines which action should the anticheat take towards the player
 # whom was tagged by the anticheat. The function can be disabled by toggle.

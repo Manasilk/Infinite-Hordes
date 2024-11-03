@@ -1,0 +1,1 @@
+particle sculk_charge_pop ~ ~2.5 ~ 0.2 0.2 0.2 0 5 normal

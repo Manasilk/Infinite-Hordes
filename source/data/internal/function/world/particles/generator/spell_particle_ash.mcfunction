@@ -1,0 +1,1 @@
+particle minecraft:ash ~ ~2.5 ~ 0.2 0.2 0.2 0 1 normal

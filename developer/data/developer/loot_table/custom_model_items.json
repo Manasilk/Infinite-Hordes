@@ -1,0 +1,666 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 4,
+        "bonus_rolls": 0,
+        "entries": [
+          
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "mainhand_attack_damage",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 14,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "mainhand_attack_speed",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": {
+                  "text": "Tu'viri Basher",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "text": "Damage 10     Speed 0.6",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(6 Damage Per Second)",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": " ",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "On hit: Your melee strikes and abilities",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "have a chance to summon Fangs",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ]
+                  
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": true
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "chest_armor",
+                    "attribute": "minecraft:armor",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "chest_toughness",
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "chest_health",
+                    "attribute": "minecraft:max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "chest_knockback_resistance",
+                    "attribute": "minecraft:knockback_resistance",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": {
+                  "text": "Coldforge Breastplate",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "text": "Chest",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "8 Armor",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "2 Toughness",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+1 Health",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+0.5 Knockback Resistace",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": " ",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Coldforged Blessing Set",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(2) Set: Reduces active cooldowns by 5%",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(4) Set: Restore 1 saturation every 20 sec.",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                  
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": true
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "helmet_armor",
+                    "attribute": "minecraft:armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "helmet_toughness",
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "helmet_health",
+                    "attribute": "minecraft:max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "helmet_knockback_resistance",
+                    "attribute": "minecraft:knockback_resistance",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": {
+                  "text": "Coldforge Casque",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "text": "Chest",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "3 Armor",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "2 Toughness",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+1 Health",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+0.5 Knockback Resistace",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": " ",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Coldforged Blessing Set",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(2) Set: Reduces active cooldowns by 5%",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(4) Set: Restore 1 saturation every 20 sec.",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                  
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": true
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "leggings_armor",
+                    "attribute": "minecraft:armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "leggings_toughness",
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "leggings_health",
+                    "attribute": "minecraft:max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "leggings_resistance",
+                    "attribute": "minecraft:knockback_resistance",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": {
+                  "text": "Coldforge Legguards",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "text": "Chest",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "6 Armor",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "2 Toughness",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+1 Health",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+0.5 Knockback Resistace",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": " ",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Coldforged Blessing Set",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(2) Set: Reduces active cooldowns by 5%",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(4) Set: Restore 1 saturation every 20 sec.",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                  
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": true
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "boots_armor",
+                    "attribute": "minecraft:armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "boots_toughness",
+                    "attribute": "minecraft:armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "boots_health",
+                    "attribute": "minecraft:max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "boots_resistance",
+                    "attribute": "minecraft:knockback_resistance",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "target": "item_name",
+                "name": {
+                  "text": "Coldforge Greaves",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "text": "Chest",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "3 Armor",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "2 Toughness",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+1 Health",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "+0.5 Knockback Resistace",
+                      "color": "green",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": " ",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Coldforged Blessing Set",
+                      "color": "gold",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(2) Set: Reduces active cooldowns by 5%",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "(4) Set: Restore 1 saturation every 20 sec.",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                  
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": true
+                  }
+                }
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
