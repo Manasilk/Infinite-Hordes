@@ -421,11 +421,12 @@
 	"entity.zombie": "Zombie",
 	"entity.zombie_pigman": "Zombie Pigman",
 	"entity.zombie_villager": "Zombie Villager",
-	"entity.hoglin": "Хоглин",
-	"entity.zoglin": "Зоглин",
-	"entity.piglin": "Пиглин",
-	"entity.piglin_brute": "Жестокий Пиглин",
-	"entity.strider": "Страйдер",
+	"entity.hoglin": "Hoglin",
+	"entity.zoglin": "Zoglin",
+	"entity.piglin": "Piglin",
+	"entity.piglin_brute": "Brutal Piglin",
+	"entity.strider": "Strider",
+	"entity.axolotl": "Axolotl",
 
 
 
