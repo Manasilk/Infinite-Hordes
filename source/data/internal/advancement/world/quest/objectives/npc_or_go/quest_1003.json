@@ -1,0 +1,42 @@
+{
+    "criteria": {
+      "REQ_NPC_OR_GO_0": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"REQ_NPC_OR_GO_0\",\"QUEST_1003\"]}"
+              }
+            }
+          ]
+        }
+      },
+      "REQ_NPC_OR_GO_1": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"REQ_NPC_OR_GO_1\",\"QUEST_1003\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "REQ_NPC_OR_GO_0",
+        "REQ_NPC_OR_GO_1"
+      ]
+    ],
+    "rewards": {
+      "function": "internal:world/quests/quest_tracker/quest_kills/quest_1003"
+    }
+  }
+  

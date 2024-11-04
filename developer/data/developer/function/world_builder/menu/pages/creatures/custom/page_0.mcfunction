@@ -1,6 +1,6 @@
 tellraw @s {"translate":"builder_menu.npc_summon_option","color":"yellow"}
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.BountiesManager","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.entity.id 1000"},"color":"white"},{"text":"]","color":"gold"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.ArmorVendor","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.entity.id 1001"},"color":"white"},{"text":"]","color":"gold"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.WeaponVendor","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.entity.id 1002"},"color":"white"},{"text":"]","color":"gold"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.AmmoVendor","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.entity.id 1003"},"color":"white"},{"text":"]","color":"gold"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.FoodVendor","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.entity.id 1004"},"color":"white"},{"text":"]","color":"gold"}]
+tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.quest_finishing","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 1000"},"color":"white"},{"text":"]","color":"gold"}]
+tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.quest_relation","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 1001"},"color":"white"},{"text":"]","color":"gold"}]
+tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.quest_starting","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 1002"},"color":"white"},{"text":"]","color":"gold"}]
+tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.quest_talkto","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 1003"},"color":"white"},{"text":"]","color":"gold"}]
+tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.quest_trigger","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb.npc_id 1004"},"color":"white"},{"text":"]","color":"gold"}]

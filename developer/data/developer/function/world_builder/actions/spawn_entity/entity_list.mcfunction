@@ -63,6 +63,13 @@ execute if score @s wb.npc_id matches 72 run function developer:world_builder/ac
 execute if score @s wb.npc_id matches 73 run function developer:world_builder/actions/spawn_entity/neutral/entity_mooshroom
 execute if score @s wb.npc_id matches 74 run function developer:world_builder/actions/spawn_entity/neutral/entity_cave_spider
 
+execute if score @s wb.npc_id matches 1000 run function developer:world_builder/actions/spawn_entity/custom/entity_quest_finishing
+execute if score @s wb.npc_id matches 1001 run function developer:world_builder/actions/spawn_entity/custom/entity_quest_relation
+execute if score @s wb.npc_id matches 1002 run function developer:world_builder/actions/spawn_entity/custom/entity_quest_starting
+execute if score @s wb.npc_id matches 1003 run function developer:world_builder/actions/spawn_entity/custom/entity_quest_talkto
+execute if score @s wb.npc_id matches 1004 run function developer:world_builder/actions/spawn_entity/custom/entity_quest_trigger
+
+
 #force initialization
 execute as @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] at @s run function internal:world/entity/creature/initialize_spawn_data
 execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run tellraw @a[tag=account.builder] {"translate":"event_type.summoned_mob","with":[{"selector":"@e[type=#internal:creature,sort=nearest,limit=1]","color":"white"},{"score":{"name":"#entity","objective":"entity_guid"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_x"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_y"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_z"},"color":"white"}],"color":"yellow"}

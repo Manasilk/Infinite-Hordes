@@ -13,8 +13,8 @@ scoreboard players set @s item_count0 0
 scoreboard players set @s item_count1 0
 scoreboard players set @s item_count2 0
 scoreboard players set @s item_count3 0
-scoreboard players set @s quest_poi.x 0
-scoreboard players set @s quest_poi.y 83
-scoreboard players set @s quest_poi.z 12
+scoreboard players set @s quest_poi.x 9
+scoreboard players set @s quest_poi.y -59
+scoreboard players set @s quest_poi.z -9
 
 function internal:world/entity/area_trigger/get_quest_poi_pos

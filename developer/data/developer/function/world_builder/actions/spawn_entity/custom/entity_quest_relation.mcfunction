@@ -4,3 +4,5 @@ tag @e[type=minecraft:villager,distance=0..0.001,sort=nearest,limit=1] add creat
 scoreboard players add #entity entity_id 1
 
 scoreboard players set @s success 1
+
+say HI
