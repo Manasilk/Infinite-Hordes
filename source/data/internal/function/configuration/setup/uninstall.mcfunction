@@ -229,6 +229,7 @@ scoreboard objectives remove unstuck
 scoreboard objectives remove help
 scoreboard objectives remove clear
 scoreboard objectives remove spawnpoint
+scoreboard objectives remove server.reload
 #ANTICHEAT
 scoreboard objectives remove _ac.v_lim
 scoreboard objectives remove _ac.h_lim

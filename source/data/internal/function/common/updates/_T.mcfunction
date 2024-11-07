@@ -12,3 +12,4 @@ scoreboard players set #world build_pd_y int.year
 scoreboard players set #world build_revision int.revision
 
 scoreboard players set #world success 1
+scoreboard players set #world server.reload 2

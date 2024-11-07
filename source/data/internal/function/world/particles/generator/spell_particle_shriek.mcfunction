@@ -1,1 +1,1 @@
-particle minecraft:shriek(delay:5) ~ ~ ~ 0.2 0.2 0.2 0 1 normal
+particle minecraft:shriek{delay:5} ~ ~ ~ 0.2 0.2 0.2 0 1 normal

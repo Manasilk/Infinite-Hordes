@@ -13,6 +13,7 @@ scoreboard objectives add build_pd_y dummy {"translate":"dbc.core.build_pd_y"}
 scoreboard objectives add __hours dummy {"translate":"dbc.server.hours"}
 scoreboard objectives add __minutes dummy {"translate":"dbc.server.minutes"}
 scoreboard objectives add expansion dummy  {"translate":"dbc.server.expansion"}
+scoreboard objectives add server.reload trigger {"translate":"dbc.handler.reload_state"}
 
 scoreboard objectives add entity_tick dummy {"translate":"dbc.server.entity_tick"}
 scoreboard objectives add world_tick dummy {"translate":"dbc.server.world_tick"}

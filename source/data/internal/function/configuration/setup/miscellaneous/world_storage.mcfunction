@@ -5,6 +5,6 @@ data modify storage internal:world build.type set value 0
 #beta    = 1,
 #rc      = 2,
 #release = 3
-data modify storage internal:world build.id set value 1.0.0A
-data modify storage internal:world build.rv set value 2978
-data modify storage internal:world build.date set value 23.10.2020
+data modify storage internal:world build.id set value 0.1.0
+data modify storage internal:world build.rv set value 2980
+data modify storage internal:world build.date set value 07.11.2024
