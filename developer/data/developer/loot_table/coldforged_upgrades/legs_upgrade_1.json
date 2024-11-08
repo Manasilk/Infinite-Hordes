@@ -1,163 +1,154 @@
 {
-    "type": "minecraft:command",
-    "pools": [
-      {
-        "rolls": 1,
-        "bonus_rolls": 0,
-        "entries": [
-          
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:netherite_leggings",
-            "functions": [
-              {
-                "function": "minecraft:set_attributes",
-                "modifiers": [
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "legs_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "id": "legs_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "id": "legs_health",
+                  "attribute": "minecraft:max_health",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "id": "legs_knockback_resistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "Coldforge Legguards",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
                   {
-                    "function": "minecraft:set_components",
-                    "components": {
-                      "minecraft:unbreakable": {
-                        "show_in_tooltip": true
-                      }
-                    }
-                  },
-                  {
-                    "id": "legs_armor",
-                    "attribute": "minecraft:armor",
-                    "amount": 6,
-                    "operation": "add_value",
-                    "slot": "legs"
-                  },
-                  {
-                    "id": "legs_toughness",
-                    "attribute": "minecraft:armor_toughness",
-                    "amount": 4,
-                    "operation": "add_value",
-                    "slot": "legs"
-                  },
-                  {
-                    "id": "legs_health",
-                    "attribute": "minecraft:max_health",
-                    "amount": 1,
-                    "operation": "add_value",
-                    "slot": "legs"
-                  },
-                  {
-                    "id": "legs_knockback_resistance",
-                    "attribute": "minecraft:knockback_resistance",
-                    "amount": 0.5,
-                    "operation": "add_value",
-                    "slot": "legs"
+                    "text": "Upgrade 1",
+                    "color": "gold",
+                    "italic": false
                   }
                 ],
-                "replace": true
-              },
-              {
-                "function": "minecraft:set_name",
-                "entity": "this",
-                "target": "item_name",
-                "name": {
-                  "text": "Coldforge Breastplate",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "entity": "this",
-                "lore": [
-                  [
-                    {
-                      "text": "Upgrade 1",
-                      "color": "gold",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "Chest",
-                      "color": "white",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "6 Armor",
-                      "color": "white",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "4 Toughness",
-                      "color": "white",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "+1 Health",
-                      "color": "green",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "+0.5 Knockback Resistace",
-                      "color": "green",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": " ",
-                      "color": "white",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "Coldforged Blessing Set",
-                      "color": "gold",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "(2) Set: Reduces active cooldowns by 5%",
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "(4) Set: Restore 1 saturation every 20 sec.",
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ]
-                  
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "minecraft:toggle_tooltips",
-                "toggles": {
-                  "minecraft:attribute_modifiers": false
-                }
-              },
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:unbreakable": {
-                    "show_in_tooltip": true
+                [
+                  {
+                    "text": "Chest",
+                    "color": "white",
+                    "italic": false
                   }
+                ],
+                [
+                  {
+                    "text": "6 Armor",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "4 Toughness",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "+1 Health",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "+0.5 Knockback Resistace",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " ",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "Coldforged Blessing Set",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "(2) Set: Reduces active cooldowns by 5%",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "(4) Set: Restore 1 saturation every 20 sec.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+                
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
                 }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
