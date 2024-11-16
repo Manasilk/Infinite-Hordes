@@ -8,3 +8,5 @@ execute if score #world world_tick matches 0.. as @e[type=#internal:creature] at
 execute if score #world world_tick matches 0.. as @e[type=minecraft:player] at @s run function internal:scripts/world/player_script_loader
 
 #execute if score #world world_tick matches 0 as @e[type=#internal:area_trigger,tag=ENTITY_FLAG_WORLD_EVENT] at @s run function internal:scripts/events/events_script_loader
+
+execute if score #world world_tick matches 0.. as @e[type=#internal:area_trigger,tag=ENTITY_FLAG_INSTANCE_MANAGER] at @s run function internal:scripts/instances/instance_script_loader

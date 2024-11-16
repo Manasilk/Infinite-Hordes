@@ -20,6 +20,7 @@ execute if entity @s[tag=messages.info.bonus_reward_event] run function internal
 execute if entity @s[tag=messages.info.difficulty_changed] run function internal:world/chat/messages/info/difficulty_changed
 execute if entity @s[tag=messages.info.server_reload_start] run function internal:world/chat/messages/info/server_reload_start
 execute if entity @s[tag=messages.info.server_reload_complete] run function internal:world/chat/messages/info/server_reload_complete
+execute if entity @s[tag=messages.info.reset_instances] run function internal:world/chat/messages/info/reset_instances
 
 #World Builder
 execute if entity @s[tag=messages.error.invalid_level] run function internal:world/chat/messages/error/level_invalid
