@@ -7,6 +7,22 @@
 			"entity": "this",
 			"predicate":
 			{
+				"nbt": "{SelectedItem:{id:\"minecraft:wooden_axe\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate":
+			{
+				"nbt": "{SelectedItem:{id:\"minecraft:stone_axe\"}}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate":
+			{
 				"nbt": "{SelectedItem:{id:\"minecraft:iron_axe\"}}"
 			}
 		},
