@@ -1,4 +1,4 @@
-#CURRENTLY UNUSED
-#scoreboard objectives add map_pos.x dummy {"translate":"dbc.map.pos_x"}
-#scoreboard objectives add map_pos.y dummy {"translate":"dbc.map.pos_y"}
-#scoreboard objectives add map_pos.z dummy {"translate":"dbc.map.pos_z"}
+scoreboard objectives add instance.template_id dummy {"translate":"dbc.instance.template_id"}
+scoreboard objectives add instance.difficulty dummy {"translate":"dbc.instance.difficulty"}
+scoreboard objectives add instance.size {"translate":"dbc.instance.size"}
+scoreboard objectives add instance.phase_id {"translate":"dbc.instance.phase_id"}

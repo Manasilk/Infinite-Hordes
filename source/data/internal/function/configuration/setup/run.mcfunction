@@ -1,5 +1,7 @@
 function internal:common/scoreboards/constants
 function internal:common/scoreboards/world
+function internal:common/scoreboards/instance
+function internal:common/scoreboards/map
 function internal:common/scoreboards/chat
 function internal:common/scoreboards/compute
 function internal:common/scoreboards/sounds

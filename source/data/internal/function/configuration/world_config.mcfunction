@@ -46,7 +46,7 @@ gamerule universalAnger false
 gamerule doInsomnia true
 #
 # @WORLDBORDER
-worldborder set 15360 0
+worldborder set 728 0
 worldborder damage buffer 0
 worldborder damage amount 200
 worldborder warning distance 12

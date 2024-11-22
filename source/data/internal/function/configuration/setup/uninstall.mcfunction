@@ -53,6 +53,17 @@ scoreboard objectives remove cfg.prjctl_age
 scoreboard objectives remove cfg.item_age
 scoreboard objectives remove cfg.cls_log_t
 scoreboard objectives remove cfg.cmd_ln
+#MAPS
+scoreboard objectives remove map.pos_x
+scoreboard objectives remove map.pos_y
+scoreboard objectives remove map.pos_z
+scoreboard objectives remove map.id
+scoreboard objectives remove map.area_id
+#INSTANCE
+scoreboard objectives remove instance.template_id
+scoreboard objectives remove instance.difficulty
+scoreboard objectives remove instance.size
+scoreboard objectives remove instance.phase_id
 #COMPUTE
 scoreboard objectives remove distance
 scoreboard objectives remove root_x
@@ -354,6 +365,9 @@ scoreboard players reset #temp
 scoreboard players reset #log
 scoreboard players reset #player.inventory_slot
 scoreboard players reset #player.inventory_slot_count
+scoreboard players reset #instance_generator
+scoreboard players reset #MATH
+
 
 #Restore default position for worldspawn
 execute in minecraft:overworld positioned 0 0 0 run setworldspawn
