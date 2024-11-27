@@ -59,6 +59,8 @@ scoreboard objectives remove map.pos_y
 scoreboard objectives remove map.pos_z
 scoreboard objectives remove map.id
 scoreboard objectives remove map.area_id
+scoreboard objectives remove garrison_tier
+scoreboard objectives remove garrison_xp
 #INSTANCE
 scoreboard objectives remove instance.template_id
 scoreboard objectives remove instance.difficulty
@@ -365,6 +367,7 @@ scoreboard players reset #temp
 scoreboard players reset #log
 scoreboard players reset #player.inventory_slot
 scoreboard players reset #player.inventory_slot_count
+scoreboard players reset #garrison
 scoreboard players reset #instance_generator
 scoreboard players reset #MATH
 

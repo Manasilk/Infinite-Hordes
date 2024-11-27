@@ -8,3 +8,7 @@ data modify storage internal:world build.type set value 0
 data modify storage internal:world build.id set value 0.1.0
 data modify storage internal:world build.rv set value 2980
 data modify storage internal:world build.date set value 07.11.2024
+
+data modify storage internal:garrison experience set value 0
+data modify storage internal:garrison tier set value 0
+data modify storage internal:garrison unlocked set value ["players_house","bank","bakery","expeditions","town_center"]

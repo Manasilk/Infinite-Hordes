@@ -107,7 +107,8 @@ scoreboard objectives add entity_rank dummy {"translate":"dbc.entity.entity_rank
 #ENTITY_FLAG_NO_DESPAWN             = 262144,
 #ENTITY_FLAG_NO_PICKUP_ITEM         = 524288,
 #ENTITY_FLAG_OBJECT_ACTOR           = 1048576,
-#ENTITY_FLAG_QUEST_TRIGGER          = 2097152
+#ENTITY_FLAG_QUEST_TRIGGER          = 2097152,
+#ENTTIY_FLAG_IGEN_ACTOR             = 4194304,
 
 #entity_flag1
 #ENTITY_FLAG_EXTRA_OBJECT_BIND      = 1

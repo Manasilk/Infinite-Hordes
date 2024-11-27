@@ -30,7 +30,7 @@ schedule function internal:common/logging/clear_entries 30d
 
 
 #Update world configuration
-function internal:configuration/world
+function internal:configuration/world_config
 
 data modify storage internal:world setup[].state set value 1
 #states:
