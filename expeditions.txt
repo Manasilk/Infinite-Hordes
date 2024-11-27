@@ -1,0 +1,20 @@
+Mining Expeditions (Req.: Gold):
+Rewards:
+1. Gold
+2. Smelting materials (Ore)
+3. Trading resources (Gold/Materials)
+
+Botanical Expeditions (Req.: Gold):
+Rewards:
+1. Alchemy ingredients
+2. Enchanting materials
+
+Trading Expeditions (Req.: Emeralds):
+Rewards pool:
+1. Mining:
+ - Smelting materials (Ore)
+ - Trading resources (Materials)
+2. Botanical:
+ - Alchemy ingredients
+3. Crafting materials (Cooking/Smelting)
+

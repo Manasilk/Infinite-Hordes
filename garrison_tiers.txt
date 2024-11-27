@@ -1,0 +1,20 @@
+Default Unlocks:
+Player's House
+Bank
+Town Center (Teleporter)
+Bakery
+Expeditions
+
+Tier 1 Unlocks:
+Armorsmith/Weaponsmith
+Farm
+Alchemist
+Enchanter
+
+Tier 2 Unlocks:
+T2 Trades/Farm Upgrade
+Barracks: Haste Buff once every in-game week for 1 in-game hour
+
+Tier X>2 Unlocks:
+Tier X Trades/Farm Upgrade
++1 Expedition

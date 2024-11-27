@@ -1,0 +1,20 @@
+Armorsmith/Weaponsmith/Fletcher:
+- Gold >> Ingots
+- Gold >> Weapon/Armour
+- Ingots >> Gold
+- Ingots + Gold >> Trims
+
+Alchemist:
+- Gold >> Herbs
+- Gold >> Crafting materials
+- Glass Bottle + Ingredient >> Potion
+
+Enchanter (By equipment slot):
+- Gold (Tier X) >> Level X<5 Enchants
+- Gold Ore + Lapis >> Emeralds
+- Echo Shard + Tier 4 Enchant >> Level 5 Enchants
+
+Bakery:
+- Raw Food >> Cooked Food (Porkchop/Mutton/Rabbit/Cod/Salmon/Chicken)
+
+
