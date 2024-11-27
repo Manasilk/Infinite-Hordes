@@ -1,5 +1,6 @@
 {
 	"chat.button": "[%s]",
+	"chat.button.build_upgrade": "Build Upgrade",
 
 	"server_broadcast": "[SERVER]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
@@ -102,6 +103,15 @@
 	"event_type.align_horizon_rotation": "Align Horizon Rotation",
 	"event_type.update_position": "Update Position",
 	"event_type.update_equipment": "Update Equipment",
+	"event_type.garrison_level_increased": "Your garrison rank has been increased to level %d.",
+	"event_type.error_garrison_level_too_low": "Your garrison level is too low.",
+	"event_type.error_no_order_found": "You don't posses the required building order.",
+	"event_type.farmland_upgrade_complete": "Building order complete! %s",
+	"event_type.farmland_upgrade.chicken": "Farmland upgrade built: Chicken Paddock",
+	"event_type.farmland_upgrade.cow": "Farmland upgrade built: Cow Paddock",
+	"event_type.farmland_upgrade.pond": "Farmland upgrade built: Fishing Pond",
+	"event_type.farmland_upgrade.sheep": "Farmland upgrade built: Sheep Paddock",
+	"event_type.farmland_upgrade.farmland": "Farmland upgrade built: Farmland",
 
 
 
