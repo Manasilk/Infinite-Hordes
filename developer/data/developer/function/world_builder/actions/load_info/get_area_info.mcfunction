@@ -9,6 +9,8 @@ scoreboard players operation @s iterator.x = @s start.x
 scoreboard players operation @s iterator.y = @s start.y
 scoreboard players operation @s iterator.z = @s start.z
 
+scoreboard players operation @s condition_type = @p condition_type
+
 scoreboard players reset #temp start.x
 scoreboard players reset #temp start.y
 scoreboard players reset #temp start.z
