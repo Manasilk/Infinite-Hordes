@@ -21,6 +21,6 @@ scoreboard objectives add _ac.flags dummy {"translate":"dbc.fairbox.flags"}
 #WARDEN_FLAG_PLAYER_IGNORE   = 1,
 #WARDEN_FLAG_PLAYER_FLYING   = 2,
 #WARDEN_FLAG_PLAYER_TELEPORT = 4
-scoreboard objectives add _ac.remflag_tick dummy {"translate":"dbc.fairbox.purge_flag_timer"}
+scoreboard objectives add _ac.remflag_tick dummy {"translate":"dbc.fairbox._ac.remflag_tick"}
 scoreboard objectives add anticheat_tick dummy {"translate":"dbc.fairbox.update_timer"}
 scoreboard objectives add broadcast_tick dummy {"translate":"dbc.fairbox.update_timer"}

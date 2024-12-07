@@ -10,4 +10,4 @@ scoreboard players operation @s entity_temphp = @s entity_curhp
 attribute @s[tag=ENTITY_FLAG_EXTRA_IMMUNE_KNOCKBACK] minecraft:knockback_resistance base set 10.0
 attribute @s[team=!Friendly] follow_range base set 32
 attribute @s[team=Friendly] follow_range base set 16
-scoreboard players operation @s cfg.difficulty = #world cfg.difficulty
+scoreboard players operation @s entity_difficulty = #world cfg.difficulty

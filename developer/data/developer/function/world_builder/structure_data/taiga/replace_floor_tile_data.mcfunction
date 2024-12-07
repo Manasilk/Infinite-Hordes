@@ -1,0 +1,1 @@
+fill ~ ~ ~ ~30 ~30 ~30 minecraft:polished_andesite replace minecraft:cobblestone

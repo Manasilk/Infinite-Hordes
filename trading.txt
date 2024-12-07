@@ -1,20 +1,23 @@
-Armorsmith/Weaponsmith/Fletcher:
+Blacksmith:
 - Gold >> Ingots
-- Gold >> Weapon/Armour
+- Gold >> Weapon/Armour/Ammunition
 - Ingots >> Gold
 - Ingots + Gold >> Trims
+Higher reputation reduces gold cost
 
 Alchemist:
 - Gold >> Herbs
-- Gold >> Crafting materials
-- Glass Bottle + Ingredient >> Potion
+- Gold >> Glass Bottle
+Higher reputation reduces gold cost
 
 Enchanter (By equipment slot):
-- Gold (Tier X) >> Level X<5 Enchants
-- Gold Ore + Lapis >> Emeralds
-- Echo Shard + Tier 4 Enchant >> Level 5 Enchants
+ - Gold (Tier X) >> Level X<5 Enchants
+ - Gold Ore + Lapis >> Emeralds
+ - Echo Shard + Tier 4 Enchant >> Level 5 Enchants
+Higher reputation reduces gold cost
 
 Bakery:
-- Raw Food >> Cooked Food (Porkchop/Mutton/Rabbit/Cod/Salmon/Chicken)
-
-
+ - Gold >> Bowl
+ - Raw Food >> Cooked Food (Bread/Porkchop/Mutton/Rabbit/Cod/Salmon/Chicken)
+ - Mushroom/Raw Rabbit + Bowl >> Mushroom/Rabbit Stew
+Higher reputation reduces gold cost

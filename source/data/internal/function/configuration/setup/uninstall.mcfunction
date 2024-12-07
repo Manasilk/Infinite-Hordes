@@ -53,6 +53,7 @@ scoreboard objectives remove cfg.prjctl_age
 scoreboard objectives remove cfg.item_age
 scoreboard objectives remove cfg.cls_log_t
 scoreboard objectives remove cfg.cmd_ln
+scoreboard objectives remove cfg.difficulty
 #MAPS
 scoreboard objectives remove map.pos_x
 scoreboard objectives remove map.pos_y
@@ -122,7 +123,6 @@ scoreboard objectives remove stat_played_h
 scoreboard objectives remove stat_played_d
 scoreboard objectives remove unstuck_cd
 scoreboard objectives remove wepsound
-scoreboard objectives remove chat.talk_to
 scoreboard objectives remove has_victim
 scoreboard objectives remove is_victim
 scoreboard objectives remove is_offline

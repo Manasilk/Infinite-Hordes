@@ -40,7 +40,7 @@ scoreboard objectives add cfg.normal_t dummy {"translate":"dbc.server.normal_spa
 scoreboard objectives add cfg.quest_t dummy {"translate":"dbc.server.quest_t"}
 scoreboard objectives add cfg.prjctl_age dummy {"translate":"dbc.server.projectile_t"}
 scoreboard objectives add cfg.item_age dummy {"translate":"dbc.server.item_t"}
-scoreboard objectives add cfg.cls_log_t dummy {"translate":"config.cls_log_t"}
-scoreboard objectives add cfg.cmd_ln dummy
+scoreboard objectives add cfg.cls_log_t dummy {"translate":"dbc.server.cls_log_t"}
+scoreboard objectives add cfg.cmd_ln dummy {"translate":"dbc.server.cmd)ln"}
 #> RESERVED
-scoreboard objectives add cfg.difficulty dummy {"translate":"config.game_difficulty"}
+scoreboard objectives add cfg.difficulty dummy {"translate":"dbc.server.game_difficulty"}

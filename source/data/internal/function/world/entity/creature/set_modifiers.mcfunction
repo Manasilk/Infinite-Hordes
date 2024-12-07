@@ -19,16 +19,16 @@ scoreboard players operation #temp entity_curap += #temp entity_level
 #scoreboard players operation #temp entity_armor += #temp entity_level
 
 #Difficulty based multipliers
-scoreboard players operation #temp cfg.difficulty = #world cfg.difficulty
+scoreboard players operation #temp entity_difficulty = #world cfg.difficulty
 #Normalize difficulty: Easy = 1, Normal = 2, Hard = 3 >> Easy = *1, Normal = *1.5, Hard = *2
-execute if score #temp cfg.difficulty matches 1 run scoreboard players set #temp cfg.difficulty 10
-execute if score #temp cfg.difficulty matches 2 run scoreboard players set #temp cfg.difficulty 15
-execute if score #temp cfg.difficulty matches 3 run scoreboard players set #temp cfg.difficulty 20
+execute if score #temp entity_difficulty matches 1 run scoreboard players set #temp entity_difficulty 10
+execute if score #temp entity_difficulty matches 2 run scoreboard players set #temp entity_difficultyy 15
+execute if score #temp entity_difficulty matches 3 run scoreboard players set #temp entity_difficulty 20
 
-scoreboard players operation #temp entity_maxhp *= #temp cfg.difficulty
-scoreboard players operation #temp entity_curhp *= #temp cfg.difficulty
-scoreboard players operation #temp entity_curap *= #temp cfg.difficulty
-#scoreboard players operation #temp entity_armor *= #temp cfg.difficulty
+scoreboard players operation #temp entity_maxhp *= #temp entity_difficulty
+scoreboard players operation #temp entity_curhp *= #temp entity_difficulty
+scoreboard players operation #temp entity_curap *= #temp entity_difficulty
+#scoreboard players operation #temp entity_armor *= #temp entity_difficulty
 
 #execute if score #temp entity_maxhp.old matches 0.. run scoreboard players operation #temp entity_maxhp.old -= #temp entity_maxhp
 #execute if score #temp entity_maxhp.old matches ..-1 run scoreboard players operation #temp entity_maxhp.old *= #const CNVT_OPP

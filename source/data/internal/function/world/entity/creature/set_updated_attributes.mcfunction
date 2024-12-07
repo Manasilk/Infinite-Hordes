@@ -23,5 +23,5 @@ scoreboard players reset #temp entity_curhp
 scoreboard players reset #temp entity_curap
 scoreboard players reset #temp entity_maxhp.old
 #scoreboard players reset #temp entity_armor
-scoreboard players reset #temp cfg.difficulty
-scoreboard players operation @s cfg.difficulty = #world cfg.difficulty
+scoreboard players reset #temp entity_difficulty
+scoreboard players operation @s entity_difficulty = #world cfg.difficulty

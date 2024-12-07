@@ -1,20 +1,34 @@
-Mining Expeditions (Req.: Gold):
-Rewards:
-1. Gold
-2. Smelting materials (Ore)
-3. Trading resources (Gold/Materials)
-
-Botanical Expeditions (Req.: Gold):
-Rewards:
-1. Alchemy ingredients
-2. Enchanting materials
-
-Trading Expeditions (Req.: Emeralds):
+Lumber Expeditions (Lumber):
 Rewards pool:
-1. Mining:
- - Smelting materials (Ore)
- - Trading resources (Materials)
-2. Botanical:
- - Alchemy ingredients
-3. Crafting materials (Cooking/Smelting)
+ - Gold
+ - Settlement materials (Wood)
+Duration: 40 minutes/20 minutes (Playable)
 
+Mining Expeditions (Badlands):
+Rewards pool:
+ - Gold
+ - Smelting materials (Ore)
+ - Settlement materials (Stone)
+Duration: 40 minutes/20 minutes (Playable)
+
+Botanical Expeditions (All Biomes):
+Rewards pool:
+ - Alchemy ingredients
+ - Enchanting materials
+Duration: 40 minutes/20 minutes (Playable)
+
+Trading Expeditions (All Biomes):
+Rewards pool:
+ - Emeralds
+ - Settlement materials
+ - Alchemy ingredients
+ - Enchanting materials
+ - Cooking ingredients
+Constant rewards:
+ - Gold
+Duration: 60 minutes/20 minutes (Playable)
+
+Exploration/Combat Expeditions (All Biomes, Playable Only):
+Rewards pool:
+ - Trading resources
+Duration: 20 minutes

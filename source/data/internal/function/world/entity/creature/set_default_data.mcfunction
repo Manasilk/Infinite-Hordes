@@ -85,6 +85,7 @@ scoreboard players set @s[type=minecraft:sniffer] entity_id 87
 scoreboard players set @s[type=minecraft:armadillo] entity_id 88
 scoreboard players set @s[type=minecraft:bee] entity_id 89
 scoreboard players set @s[type=minecraft:goat] entity_id 90
+scoreboard players set @s[type=minecraft:creaking] entity_id 91
 
 scoreboard players set @s entity_hpprc 100
-scoreboard players operation @s cfg.difficulty = #world cfg.difficulty
+scoreboard players operation @s entity_difficulty = #world cfg.difficulty

@@ -4,7 +4,7 @@ execute if score @s entity_tick = #const UPD_CYCLE run function internal:world/e
 tag @s[tag=!messages.info.logged_in,scores={is_offline=1..}] add messages.info.logged_in
 tag @s[tag=!messages.info.rest,scores={played_tick=72000..}] add messages.info.rest
 kill @s[tag=messages.info.logged_in,tag=ENTITY_FLAG_IN_COMBAT]
-execute unless score @s cfg.difficulty = #world cfg.difficulty run tag @s add messages.info.difficulty_changed
+execute unless score @s entity_difficulty = #world cfg.difficulty run tag @s add messages.info.difficulty_changed
 
 execute at @s[tag=!SPELL_AURA_GHOST,scores={has_died=1..}] run function internal:world/entity/player/initialize_player_corpse
 execute at @s[tag=!SPELL_AURA_GHOST,scores={is_wounded=1..}] run function internal:world/entity/player/sound_events/is_wounded

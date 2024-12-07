@@ -134,6 +134,7 @@ scoreboard objectives add entity_temphp dummy {"translate":"dbc.entity.entity_te
 scoreboard objectives add entity_armor dummy {"translate":"dbc.entity.entity_armor"}
 scoreboard objectives add entity_phaseid dummy {"translate":"dbc.entity.entity_phaseid"}
 scoreboard objectives add entity_gossip_id dummy {"translate":"dbc.entity.entity_gossip_id"}
+scoreboard objectives add entity_difficulty dummy {"translate":"dbc.entity.entity_difficulty"}
 scoreboard objectives add has_target dummy
 
 scoreboard objectives add entity_count dummy {"translate":"dbc.entity.entity_count"}

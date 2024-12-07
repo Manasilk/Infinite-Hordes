@@ -1,3 +1,5 @@
+execute store result score #MATH seed run time query gametime
+
 scoreboard players operation #MATH rand += #MATH seed
 scoreboard players operation #MATH min = @s min
 scoreboard players operation #MATH max = @s max

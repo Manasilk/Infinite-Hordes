@@ -1,0 +1,27 @@
+Default Unlocks:
+Player's House
+Treasury
+The Docks
+Bakery
+Expeditions
+
+Tier 1 Unlocks:
+Blacksmith
+Farmhouse
+Apothecary
+Tier 2 Trades
+
+Tier 2 Unlocks:
+Increased trades reputation
++1 Farmhouse Upgrade (Plains Only)
+Grand Hall: Haste Buff once every in-game week for 1 real-time hour
+
+Tier 4 Unlocks:
+Increased trades reputation
++1 Farmhouse Upgrade (Plains Only)
++1 Expedition Limit
+
+Tier 5 Unlocks:
+Increased trades reputation
++1 Farmhouse Upgrade (Plains Only)
++1 Expedition Limit
