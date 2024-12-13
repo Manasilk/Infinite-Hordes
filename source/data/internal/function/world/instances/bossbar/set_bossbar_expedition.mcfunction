@@ -1,0 +1,1 @@
+bossbar set internal:closest_objective name {"translate":"ui.bossbar.title.closest_objective","with":[{"translate":"ui.bossbar.progress.expedition"}]}

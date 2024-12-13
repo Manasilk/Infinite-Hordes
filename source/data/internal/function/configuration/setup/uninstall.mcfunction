@@ -367,9 +367,13 @@ scoreboard players reset #temp
 scoreboard players reset #log
 scoreboard players reset #player.inventory_slot
 scoreboard players reset #player.inventory_slot_count
-scoreboard players reset #garrison
+scoreboard players reset #settlement
 scoreboard players reset #instance_generator
 scoreboard players reset #MATH
+
+bossbar remove internal:settlement_exp
+bossbar remove internal:closest_objective
+bossbar remove internal:closest_event
 
 
 #Restore default position for worldspawn

@@ -17,6 +17,7 @@ function internal:common/scoreboards/anticheat
 function internal:common/scoreboards/debug
 function internal:common/scoreboards/world_builder
 function internal:common/scoreboards/preset
+function internal:common/bossbars/list
 function internal:configuration/setup/scoreboards/worldspawn
 function internal:configuration/setup/scoreboards/constants
 function internal:configuration/setup/scoreboards/world
