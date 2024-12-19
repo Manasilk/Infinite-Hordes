@@ -1,7 +1,11 @@
 {
-	"condition": "minecraft:location_check",
-	"predicate":
-	{
-		"dimension": "minecraft:the_nether"
-	}
-}
+	"condition": "minecraft:any_of",
+	"terms": [
+	  {
+		"condition": "minecraft:location_check",
+		"predicate": {
+		  "dimension": "minecraft:the_nether"
+		}
+	  }
+	]
+  }
