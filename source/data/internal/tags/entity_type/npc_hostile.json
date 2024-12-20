@@ -33,6 +33,10 @@
 		"minecraft:wither",
 		"minecraft:elder_guardian",
 		"minecraft:ender_dragon",
-		"minecraft:guardian"
+		"minecraft:guardian",
+		"minecraft:warden",
+		"minecraft:creaking",
+		"minecraft:bogged",
+		"minecraft:breeze"
 	]
 }
