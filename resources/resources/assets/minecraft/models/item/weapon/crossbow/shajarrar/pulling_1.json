@@ -1,7 +1,0 @@
-{
-    "parent": "item/weapon/crossbow/shajarrar/idle",
-    "textures":
-	{
-        "layer0": "item/weapon/crossbow/shajarrar/pulling_1"
-    }
-}

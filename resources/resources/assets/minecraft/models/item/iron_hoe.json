@@ -1,7 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures":
-	{
-        "layer0": "item/tools/hoe/iron_hoe"
-    }
-}
