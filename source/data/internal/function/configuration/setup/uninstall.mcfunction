@@ -96,6 +96,7 @@ scoreboard objectives remove dmg_in0
 scoreboard objectives remove dmg_in1
 scoreboard objectives remove dmg_in2
 scoreboard objectives remove dmg_in3
+scoreboard objectives remove target_id
 #PLAYER
 scoreboard objectives remove player_commands
 scoreboard objectives remove player_debugging

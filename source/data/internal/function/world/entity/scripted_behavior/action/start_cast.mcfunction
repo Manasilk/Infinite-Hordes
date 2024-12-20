@@ -1,4 +1,4 @@
-execute unless entity @s[tag=ENTITY_FLAG_NO_AI] run function internal:world/entity/scripted_behavior/action/disable_ai
+execute unless entity @s[tag=ENTITY_FLAG_NO_AI] run function internal:world/entity/scripted_behavior/action/disable_default_ai
 scoreboard players operation @s[tag=SMARTCAST_TRIGGERED] cast_timer = @s cast_timer_max
 execute as @a[tag=collision.line_of_sight_target,distance=0..31.999] if score @s player_id = #temp target_id run tag @s add creature.find_target_by_id
 teleport @s[tag=!TARGET_POSITION,tag=!TARGET_SELF] ~ ~ ~ facing entity @a[tag=creature.find_targe_by_id,distance=0..31.999,limit=1]

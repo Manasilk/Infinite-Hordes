@@ -1,5 +1,3 @@
-say common/collision/initialize_spawn_data
-
 #Upon summoning the virtual ray, we assign the invoker's rotation as the rotation the ray is facing
 scoreboard players operation @s entity_hostility = #temp entity_hostility
 tag @s[scores={entity_hostility=1}] add ENTITY_ACTION_FRIENDLY

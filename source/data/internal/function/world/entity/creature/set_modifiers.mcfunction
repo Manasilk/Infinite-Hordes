@@ -22,7 +22,7 @@ scoreboard players operation #temp entity_curap += #temp entity_level
 scoreboard players operation #temp entity_difficulty = #world cfg.difficulty
 #Normalize difficulty: Easy = 1, Normal = 2, Hard = 3 >> Easy = *1, Normal = *1.5, Hard = *2
 execute if score #temp entity_difficulty matches 1 run scoreboard players set #temp entity_difficulty 10
-execute if score #temp entity_difficulty matches 2 run scoreboard players set #temp entity_difficultyy 15
+execute if score #temp entity_difficulty matches 2 run scoreboard players set #temp entity_difficulty 15
 execute if score #temp entity_difficulty matches 3 run scoreboard players set #temp entity_difficulty 20
 
 scoreboard players operation #temp entity_maxhp *= #temp entity_difficulty

@@ -5,6 +5,7 @@
 execute if entity @s[type=minecraft:pillager,tag=npc_pillager] run function internal:scripts/world/npc_pillager
 execute if entity @s[type=minecraft:spider,tag=ENTITY_FLAG_IN_COMBAT,tag=npc_spider] run function internal:scripts/world/npc_spider
 execute if entity @s[type=minecraft:cave_spider,tag=ENTITY_FLAG_IN_COMBAT,tag=npc_spider] run function internal:scripts/world/npc_spider
+execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=npc_spellcaster_prototype] run function internal:scripts/world/npc_spellcaster_prototype
 execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=npc_iron_golem] run function internal:scripts/world/npc_iron_golem
 execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=npc_ravager] run function internal:scripts/world/npc_ravager
 execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=npc_blaze] run function internal:scripts/world/npc_ravager
